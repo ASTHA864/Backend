@@ -25,12 +25,11 @@ var arr = [1, 2, 2, 3, 4];
 // });
 // console.log(newarr);
 
-
 // Objects
-var obj= {
-  Name:"Astha",
-  Email:"astha@gmail.com",
-}
+var obj = {
+  Name: "Astha",
+  Email: "astha@gmail.com",
+};
 Object.freeze(obj);
-obj.Name="Test";
+obj.Name = "Test";
 console.log(obj.Name);
