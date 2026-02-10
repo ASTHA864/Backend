@@ -1,9 +1,10 @@
 const fs = require('fs');
 const http = require('http');
-const server = http.createServer(function(req,res) {
-  res.end("Hey!! Listen");
-})
-server.listen(3000);
+// const server = http.createServer(function(req,res) {
+//   res.end("Hey!! Listen");
+// })
+// server.listen(3000);
+console.log("Hey")
 // Write/Create File
 // fs.writeFile(file, data[, options], callback)
 // fs.writeFile("data.txt", "Welcome to backend series", function(err) {
